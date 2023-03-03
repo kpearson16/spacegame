@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.container{
+    border: solid turquoise;
+    height: 75vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    background-image: url("http://trumpwallpapers.com/wp-content/uploads/Space-Wallpaper-03-3840-x-2160.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.alien1, .alien2, .alien3, .alien4, .alien5, .alien6{
+    height: 60px;
+    border-radius: 20px;
+}
+
+.rocket{
+    height: 70px;
+    position: absolute;
+    bottom: 130px;
+}
+
+.stats{
+    border: solid white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+.alienstats, .mainstats{
+    display: flex;
+    flex-direction: column;
+    color: white;
+  
+}
+.alienstats{
+    color: aqua;
+}
+.mainstats{
+    color:lime;
+}
+.accu, .firepower, .hull{
+    color: white;
+    
+}
